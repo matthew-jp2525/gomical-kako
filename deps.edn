@@ -1,0 +1,4 @@
+{:paths ["src"]
+ :deps {dk.ative/docjure {:mvn/version "1.19.0"},
+        clojure.java-time/clojure.java-time {:mvn/version "1.4.2"}
+        org.clojure/tools.logging {:mvn/version "1.2.4"}}}
