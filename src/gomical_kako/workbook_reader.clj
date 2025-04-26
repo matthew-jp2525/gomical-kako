@@ -2,18 +2,18 @@
   (:require [dk.ative.docjure.spreadsheet :as ss]
             [java-time.api :as jt]))
 
-(def rows [{:year 2024, :month 1, :row-number 16}
-           {:year 2024, :month 2, :row-number 17}
-           {:year 2024, :month 3, :row-number 18}
-           {:year 2024, :month 4, :row-number 19}
-           {:year 2024, :month 5, :row-number 20}
-           {:year 2024, :month 6, :row-number 21}
-           {:year 2024, :month 7, :row-number 22}
-           {:year 2024, :month 8, :row-number 23}
-           {:year 2024, :month 9, :row-number 24}
-           {:year 2024, :month 10, :row-number 25}
-           {:year 2024, :month 11, :row-number 26}
-           {:year 2024, :month 12, :row-number 27}])
+(def rows [{:year 2025, :month 1, :row-number 16}
+           {:year 2025, :month 2, :row-number 17}
+           {:year 2025, :month 3, :row-number 18}
+           {:year 2025, :month 4, :row-number 19}
+           {:year 2025, :month 5, :row-number 20}
+           {:year 2025, :month 6, :row-number 21}
+           {:year 2025, :month 7, :row-number 22}
+           {:year 2025, :month 8, :row-number 23}
+           {:year 2025, :month 9, :row-number 24}
+           {:year 2025, :month 10, :row-number 25}
+           {:year 2025, :month 11, :row-number 26}
+           {:year 2025, :month 12, :row-number 27}])
 
 (def columns [{:category "燃やさないごみ", :column-numbers ["C"]}
               {:category "かん", :column-numbers ["D"]}
